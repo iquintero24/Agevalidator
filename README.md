@@ -3,7 +3,7 @@
 This is a basic web project created to practice and demonstrate HTML, CSS, and JavaScript skills. The site is designed to verify the age of a user and provide feedback based on their input.
 
 🌐 **Live Preview:**  
-[Age Verifier Live Preview](#)  <!-- Replace with actual live link -->
+[Age Verifier Live Preview](iquintero24.github.io/Agevalidator/)  <!-- Replace with actual live link -->
 
 📁 **Project Structure**
 - `index.html` – main HTML page with structured semantic elements

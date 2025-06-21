@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <meta name="description" content="Age verifier to check if a person is of legal age" />
+    <meta name="author" content="Isaac David Quintero Lobo" />
+    <meta name="keywords" content="age, name, javascript, web, training" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./src/css/style.css"> <!-- CSS stylesheet -->
+    <title>Age</title>
+</head>
+<body>
+    
+    <header>
+        <nav><h3>AGE VERIFIER</h3></nav>
+    </header>
+
+    <main>
+        <form id="formAge"> <!-- Form for age verification -->
+            <label for="name">
+                Please enter your name
+                <input type="text" name="name" placeholder="Enter your name" required>
+            </label>
+           
+            <label for="age">
+                Please enter your age
+                <input type="number" name="age" placeholder="Enter your age" required>
+            </label>
+          
+            <button class="calculate" type="submit" name="submit">Calculate</button>
+        </form>
+
+        <div id="message_div"></div> <!-- Div for messages -->
+    </main>
+    
+    <footer>
+        <h2>Developed by <a href="https://github.com/iquintero24">Isaac Quintero</a></h2>
+    </footer>
+
+    <script src="./src/js/main.js"></script> <!-- JavaScript file -->
+</body>
+</html>
